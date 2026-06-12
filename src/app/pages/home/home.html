@@ -1,0 +1,23 @@
+<p>home works!</p>
+
+<div class="d-flex flex-row align-items-center justify-center gap-3   ">
+    <div class="btn btn-primary">
+        <a class="text-white text-decoration-none" routerLink="product">Go To Product </a>
+    </div>
+    <div class="btn btn-primary">
+        <a class="text-white text-decoration-none" routerLink="user">Go To User </a>
+    </div>
+</div>
+
+<p>{{userName | uppercase }}</p>
+<p>{{userName | lowercase }}</p>
+<p>{{userDate | date : 'shortTime' }}</p>
+<p>{{userFriends | slice :0 : 2 }}</p>
+<p> {{userObject | json}} </p>
+<p> {{userSuccess | percent}} </p>
+<p> {{userSalary | currency : "EGP"}} </p>
+<p>{{userCustomPipe | test }} </p>
+<p>{{userCustomPipe | transformCustomPipe : 0 : 9 }} </p>
+
+
+<router-outlet></router-outlet>
