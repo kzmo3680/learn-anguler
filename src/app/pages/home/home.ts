@@ -27,8 +27,7 @@ export class Home {
     let username = {name : "Ahmed"};
     let newUserName = {...username};
     
-    console.log(username);
-    console.log(newUserName);
+  
   }
 
   ngOnInit() : void {
