@@ -22,6 +22,7 @@ export class Home {
   userSalary : number = 10_000;
   userCustomPipe : string = "Hello World I am Come from egypt and will leave it soon..."
 
+  isTrue : boolean = false;
 
   getUserName() : void {
     let username = {name : "Ahmed"};

@@ -9,4 +9,7 @@ import { IAmazonProduct } from '../../Core/interfaces/IProduct';
 })
 export class AmazonProduct {
   amazonProducts: IAmazonProduct[] = [];
+
+  isTrue : boolean = false;
+
 }

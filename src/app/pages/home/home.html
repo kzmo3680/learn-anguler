@@ -20,4 +20,15 @@
 <p>{{userCustomPipe | transformCustomPipe : 0 : 9 }} </p>
 
 
+<button #btn>Load Data</button>
+
+<button class="btn btn-primary">amazon-product works!</button>
+
+
+@defer (on hover(btn); when isTrue) {
+  <p>Loadding Heavey Component</p>
+}
+
+
+
 <router-outlet></router-outlet>
